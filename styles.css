@@ -1,0 +1,82 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f1fb; /* Fundo claro em tom de lilás suave */
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #4b0082; /* Roxo escuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  /* Main - Perguntas e Respostas */
+  main {
+    padding: 40px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .faq {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .question {
+    background-color: #e1bee7; /* Lilás claro para o fundo das perguntas */
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .question h2 {
+    font-size: 1.3em;
+    color: #3f0071; /* Roxo mais escuro para o título das perguntas */
+  }
+  
+  .answer {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+    font-size: 1.1em;
+  }
+  
+  .question:hover {
+    background-color: #d1a0d1; /* Lilás mais suave para o efeito hover */
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #4b0082; /* Roxo escuro */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4
+  

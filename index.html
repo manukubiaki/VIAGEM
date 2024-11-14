@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Perguntas e Respostas sobre Viagens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container">
+      <h1>FAQ sobre Viagens</h1>
+    </div>
+  </header>
+
+  <!-- Main - Perguntas e Respostas -->
+  <main>
+    <div class="container">
+      <section class="faq">
+        <!-- Pergunta 1 -->
+        <div class="question">
+          <h2>Pergunta 1: Como planejar uma viagem internacional?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(1)">Ver Tópicos</button>
+          <div class="answer" id="answer1">
+            <ul>
+              <li>Escolha o destino.</li>
+              <li>Pesquise sobre os requisitos de visto, passaporte e vacinas.</li>
+              <li>Crie um roteiro com atividades principais.</li>
+              <li>Considere o orçamento e as opções de hospedagem.</li>
+              <li>Compre passagens com antecedência para obter melhores preços.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 2 -->
+        <div class="question">
+          <h2>Pergunta 2: O que levar na mala para uma viagem de aventura?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(2)">Ver Tópicos</button>
+          <div class="answer" id="answer2">
+            <ul>
+              <li>Roupas adequadas ao clima da região.</li>
+              <li>Sapatos confortáveis para caminhadas.</li>
+              <li>Mochila resistente.</li>
+              <li>Itens de primeiros socorros (curativos, remédios básicos).</li>
+              <li>Equipamentos específicos para atividades, como lanterna, bússola, etc.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 3 -->
+        <div class="question">
+          <h2>Pergunta 3: Como encontrar passagens aéreas baratas?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(3)">Ver Tópicos</button>
+          <div class="answer" id="answer3">
+            <ul>
+              <li>Use comparadores de preços como Skyscanner ou Google Flights.</li>
+              <li>Pesquise e reserve com antecedência.</li>
+              <li>Fique atento a promoções de última hora e alertas de preços.</li>
+              <li>Considere voos em horários menos populares (de madrugada ou em dias da semana).</li>
+              <li>Se possível, opte por aeroportos alternativos nas proximidades.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="question">
+          <h2>Pergunta 4: O que fazer para viajar com um orçamento limitado?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(4)">Ver Tópicos</button>
+          <div class="answer" id="answer4">
+            <ul>
+              <li>Pesquise destinos com custo mais baixo.</li>
+              <li>Aproveite promoções de passagens e pacotes de viagem.</li>
+              <li>Fique em hostels ou hospedagens alternativas, como Airbnbs.</li>
+              <li>Use transporte público e evite táxis ou aluguel de carros caros.</li>
+              <li>Faça suas próprias refeições, comprando em mercados locais.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 5 -->
+        <div class="question">
+          <h2>Pergunta 5: Qual a melhor época para viajar para a Europa?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(5)">Ver Tópicos</button>
+          <div class="answer" id="answer5">
+            <ul>
+              <li>A primavera (março a maio) e o outono (setembro a novembro) são ideais.</li>
+              <li>Evite o pico do verão (junho a agosto) devido ao grande número de turistas.</li>
+              <li>Considere o clima da região que você deseja visitar (sul da Europa é mais quente).</li>
+              <li>A época baixa oferece passagens e hospedagem mais baratas.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 6 -->
+        <div class="question">
+          <h2>Pergunta 6: Quais documentos são necessários para viajar para o exterior?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(6)">Ver Tópicos</button>
+          <div class="answer" id="answer6">
+            <ul>
+              <li>Passaporte válido.</li>
+              <li>Visto (dependendo do destino).</li>
+              <li>Comprovante de vacinação (caso necessário).</li>
+              <li>Seguro de viagem (recomendado, mas não obrigatório em alguns casos).</li>
+              <li>Comprovante de recursos financeiros e passagem de volta.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 7 -->
+        <div class="question">
+          <h2>Pergunta 7: Como garantir que minha viagem será segura?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(7)">Ver Tópicos</button>
+          <div class="answer" id="answer7">
+            <ul>
+              <li>Faça um seguro viagem adequado.</li>
+              <li>Pesquise sobre a segurança do destino.</li>
+              <li>Evite áreas de risco e fique atento aos pertences pessoais.</li>
+              <li>Tenha cópias de documentos importantes e registre-os online.</li>
+              <li>Fique em contato com familiares ou amigos durante a viagem.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 8 -->
+        <div class="question">
+          <h2>Pergunta 8: O que fazer se meu voo for cancelado?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(8)">Ver Tópicos</button>
+          <div class="answer" id="answer8">
+            <ul>
+              <li>Entre em contato com a companhia aérea para saber as opções de reembolso ou remarcação.</li>
+              <li>Verifique se tem direito a compensação financeira ou ajuda com hospedagem.</li>
+              <li>Mantenha seus documentos e recibos para solicitar reembolso.</li>
+              <li>Considere alternativas de voos, se possível.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 9 -->
+        <div class="question">
+          <h2>Pergunta 9: Como me adaptar ao fuso horário ao viajar para outro país?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(9)">Ver Tópicos</button>
+          <div class="answer" id="answer9">
+            <ul>
+              <li>Procure ajustar o seu horário de sono alguns dias antes da viagem.</li>
+              <li>Ao chegar, tente se expor à luz do dia para ajudar seu corpo a se ajustar.</li>
+              <li>Durma e se alimente de acordo com o horário local do destino.</li>
+              <li>Mantenha-se hidratado e evite álcool e cafeína nos primeiros dias.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Pergunta 10 -->
+        <div class="question">
+          <h2>Pergunta 10: Quais são os melhores aplicativos para viagens?</h2>
+          <button class="toggle-btn" onclick="toggleAnswer(10)">Ver Tópicos</button>
+          <div class="answer" id="answer10">
+            <ul>
+              <li>Google Maps para navegação e sugestões de pontos turísticos.</li>
+              <li>TripAdvisor para avaliações de restaurantes, hotéis e atrações.</li>
+              <li>Airbnb para hospedagem alternativa.</li>
+              <li>Skyscanner ou Kayak para encontrar passagens aéreas.</li>
+              <li>WhatsApp para comunicação com amigos e familiares.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2024 FAQ Viagens. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
